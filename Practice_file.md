@@ -3,4 +3,4 @@
 ## I am learning about git hub
 > command
 
-![image](graph.png)
+![image](DAY1_img/graph.png)
