@@ -49,4 +49,34 @@ iphop add_to_db --fna_dir fa_all/ \
 iphop predict --fa_file ./MVP_07_Filtered_conservative_Prokaryote_Host_Only_best_vBins_Representative_Unbinned_vOTUs_Sequences_iPHoP_Input.fasta \
 --db_dir ./MAGs_iPHoP_db \
 --out_dir ./iphop_output -t 12
+
+
 ```
+
+
+
+
+
+
+## Viromics result
+1)	11 proviruses and 846 viruses respectively were found in BGR_140717 sample
+
+2)	559 Caudoviricetes were found in the BGR_140717 sample
+
+
+3)	1 High Quality and Complete virus was found in the BGR_140717 sample whereas 564 Low Quality viruses and 3 Medium Quality viruses were reported in the same sample.
+
+
+4)	The Id of complete virus is
+BGR_140717_NODE_168_lenght_31258_cov_37.020094
+
+The length of the complete virus is 31258
+There are 10 hallmark genes present in this complete virus.
+
+
+5) 50 High Quality viruses were found after binning.
+
+6) Based on the Direct terminal repeat regions on both ends of the genome, following viral contigs were found which are complete circular genomes:
+> BGR_140717_NODE_168_length_31258_cov_37.020094
+> BGR_140121_NODE_54_length_34619_cov_66.823718
+> BGR_131021_NODE_96_length_46113_cov_32.412567
