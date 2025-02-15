@@ -24,6 +24,7 @@ cd $WORK
 micromamba activate .micromamba/envs/01_short_reads_qc
 
 
+
 # creata new folder for output of qc 
 mkdir -p $WORK/genomics/1_short_reads_qc/1_fastqc_raw
 for i in ./add/absolute/path/*.gz; do fastqc $i -o ./add/absolute/path/output_dir/ -t 16; done

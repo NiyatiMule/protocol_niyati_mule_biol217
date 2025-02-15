@@ -22,6 +22,7 @@ mvip MVP_07_do_binning -i WORKING_DIRECTORY/ -m input_file_timeseries_final.csv 
 mvip MVP_100_summarize_outputs -i WORKING_DIRECTORY/ -m input_file_timeseries_final.csv
 ```
 
+
 ## iPHoP
 ```
 module load miniconda3/4.12.0
