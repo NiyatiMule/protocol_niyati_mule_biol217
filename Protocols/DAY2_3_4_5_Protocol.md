@@ -122,8 +122,6 @@ jobinfo
 metaquast -t 6 -o /work_beegfs/sunam232/metagenomics/0_raw_reads/assembly_output/3_metaquast -m 1000 final.contigs.fa
 ```
 
-
-
 ```
 ### Bining
 
@@ -152,4 +150,44 @@ anvi-run-hmms -c contigs.db
 ```
 ### Here we first time did visualization with anvio
 
-```
+## Bining was carried out by anvio using both METABAT2 and MAXBIN
+ - Sorting and Indexing bam files
+ - creating anvi merged profiles
+ - Bining with MAXBIN2
+ - Bining with METABAT2
+ ![METABA2 BINS](image-4.png)
+
+## Chimera was detected using GUNC tool
+![METABAT_45](image-5.png)
+ METABAT45 GUNC OUTPUT
+
+ ![METABAT_19](image-6.png)
+ METABAT19 GUNC OUTPUT
+
+ ![METABAT_16](image-7.png)
+ METABAT16 GUNC OUTPUT
+
+ Only 3 archaeal bins were obatained from METABAT, only 1 was high quality archaeal bin METABAT_45 with 98.68% completness
+
+ METABAT_19 bin is a archaeal chimeric bin as it has CSS score of 1 for all the taxonomic level, whereas METABAT_16  bin becomes chimeric at species level.
+
+ ## Manual Refinement
+ ![manual refinement](image-8.png)
+
+ ## Taxonomic Assignement to bins
+ >METABAT_45 -  Methanoculleus sp012797575
+
+ >METABAT_16 - Methanosarcina flavescens
+
+ >METABAT_19 - Methanoculleus Thermohydrogenotrophicum
+
+ All these bins contains methanogens.
+
+
+
+
+
+
+
+
+
